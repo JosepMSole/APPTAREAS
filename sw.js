@@ -1,5 +1,5 @@
-/* APPTAREAS v0.7 — static assets offline, network-first app shell. */
-const CACHE='apptareas-v0.7-static';
+/* APPTAREAS v0.8 — static assets offline, network-first app shell. */
+const CACHE='apptareas-v0.8-static';
 const ASSETS=['./','./index.html','./config.js','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-180.png','./icons/icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('apptareas-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()]))});

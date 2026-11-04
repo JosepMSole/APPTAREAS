@@ -1,0 +1,10 @@
+APPTAREAS v0.8 — cambios visuales sobre v0.7
+
+- CALENDARIO: cada vez que se entra desde otra pestaña, se muestran el día actual y su semana/mes, con hoy seleccionado. Las flechas siguen permitiendo navegar libremente.
+- Corrección responsive para evitar óvalos y deformaciones en iconos, flechas y controles; centrado horizontal y vertical.
+- Eliminado el encabezado superior «NUESTRO HOGAR / APPTAREAS» de las páginas principales y de bienvenida.
+- USER: versión «APPTAREAS · v0.8» debajo del selector de idioma.
+- Caché Service Worker incrementada a v0.8.
+
+PUBLICACIÓN: reemplaza index.html y sw.js, mantén manifest.webmanifest e icons/.
+IMPORTANTE: conserva tu config.js actual de GitHub, que contiene la Publishable Key pública configurada. No hay cambios de SQL ni de credenciales.
