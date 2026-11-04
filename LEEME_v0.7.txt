@@ -1,0 +1,14 @@
+APPTAREAS v0.7 — Ajustes estéticos sobre v0.6
+
+1. En USER, el avatar ocupa la mitad izquierda de la ficha, mientras el nombre y selector de color quedan a la derecha.
+2. Contadores pendientes (rojo, texto blanco) y completadas más grandes.
+3. MI HOGAR e INSTALAR APPTAREAS aparecen colapsados y son desplegables al tocar.
+4. CERRAR SESIÓN rojo con letras blancas. Se elimina el texto de prototipo local.
+5. Avisos de tarea completada/pendiente centrados, grandes y con animación de 1 segundo.
+6. Nuevos iconos de instalación generados desde ICON APP.png, archivo aportado por el usuario.
+7. Cache de Service Worker v0.7 actualizada para distribuir los nuevos iconos.
+
+IMPORTANTE ANTES DE PUBLICAR:
+El config.js del ZIP contiene un marcador de posición por seguridad. Conserva tu config.js funcional de la v0.6 (ya configurado con tu Publishable Key); no lo sustituyas por el archivo de ejemplo del ZIP.
+Sube index.html, sw.js, manifest.webmanifest e icons/ al repositorio; conserva config.js existente.
+No hace falta actualizar Supabase ni ejecutar SQL nuevo.
