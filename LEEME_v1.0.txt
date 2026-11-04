@@ -1,0 +1,16 @@
+APPTAREAS v1.0 — Corrección icono PWA en Windows / Chrome
+
+Cambios:
+- Iconos generados DIRECTAMENTE desde ICON APP(1).png, con fondo blanco para evitar bordes negros.
+- Manifest con iconos any y maskable separados, sin alterar la identidad id /APPTAREAS/.
+- Favicon.ico multirresolución para Windows y favicon PNG en el HTML.
+- Nombres únicos v10, manifest versionado y Service Worker con caché v1.0.
+
+INSTALACIÓN:
+1. Sube index.html, manifest.webmanifest, sw.js, favicon.ico y carpeta icons al GitHub Pages existente.
+2. Conserva config.js actual SIN CAMBIOS.
+3. Abre la página en Chrome y comprueba que carga la nueva versión.
+4. En PC, desinstala APPTAREAS desde chrome://apps (no basta quitar el acceso directo), borra el acceso directo anterior si aún aparece y vuelve a instalar desde el menú de Chrome.
+5. Si Windows sigue mostrando un icono en caché, prueba a desanclar y volver a anclar la app a la barra de tareas/inicio.
+
+No requiere Supabase ni SQL. Los datos compartidos siguen en Supabase.
