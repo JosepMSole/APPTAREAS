@@ -1,0 +1,9 @@
+APPTAREAS v0.9
+
+Cambio principal:
+- Icono PWA/instalación actualizado para que coincida con el icono mostrado dentro de la app.
+- Se han renombrado los archivos de icono y actualizado manifest/index/service worker para forzar la renovación del icono instalado.
+
+Importante:
+- Mantén tu config.js actual.
+- Tras subir esta versión a GitHub, si en el móvil o escritorio sigue apareciendo el icono antiguo, desinstala la app y vuelve a instalarla. Algunos sistemas cachean el icono del acceso directo ya creado.
